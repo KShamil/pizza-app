@@ -1,4 +1,6 @@
 import { Button } from './components/Button/Button';
+import Input from './components/Input/Input';
+
 
 function App() {
 
@@ -7,6 +9,7 @@ function App() {
     <>
       <div className="app">
       <Button>Big</Button>
+      <Input placeholder='Email'/>
       </div>
     </>
   );
